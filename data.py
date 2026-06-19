@@ -25,4 +25,4 @@ def prepare_data(df):
         features_scaled, labels, test_size=0.2, random_state=42
     )
 
-    return X_train, X_test, y_train, y_test
+    return X_train, X_test, y_train, y_test, scaler
